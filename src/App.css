@@ -1,0 +1,64 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15% 2%;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2.5em;
+}
+
+.question-block {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3%;
+}
+
+.card {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card:hover img {
+  width: 220px;
+  height: 220px;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+}
+
+.not-selected {
+  opacity: 0.4;
+}
+
+.selected {
+  border: 2px solid lightblue;
+}
